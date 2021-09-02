@@ -1,1 +1,181 @@
 /* Add CSS styling here */
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    border:1px solid black;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+    *{
+        box-sizing: border-box;
+        padding:0;
+        margin:0;
+        max-width: 100%;
+        
+    }
+    html{
+        font-size:62.5%;
+        
+    }
+    body{
+        font-size: 1.6rem ;
+        line-height:1.5;
+        color: #4f4f4f;
+        font-family: 'Roboto Mono', monospace;
+        padding: 3% ;
+    }
+    h1{
+        font-family: 'Roboto Mono', monospace;
+        font-size:5rem;
+        margin: 0 auto;
+        color: gray;
+    }
+    h2{
+        font-family: 'Roboto Mono', monospace;
+        font-size:2rem;
+        margin: 0 auto;
+        color: gray; 
+        display: block;
+        padding: 0.5%;
+    }
+    section .header{
+        display: flex;
+        flex-direction: row;
+    }
+  div .header-div1{
+        
+        display: flex;
+    }
+    .header img{
+        height: 5%;
+        width: 5%;
+    }
+    nav{
+         padding: 1%;
+    }
+    nav a,select{
+        text-decoration: none;
+        padding: 1% ;
+        width:15%;        
+        text-align: center;
+        letter-spacing: 3px;
+        background-color: #fffafa;
+        font-size: 2rem;
+        color: black;
+    }
+
+select{
+    width:10%;
+    Border: none;
+    font-weight: bold;
+}
+
+
+   .first-section{
+    display: flex;
+    flex-direction: row;
+   
+    
+    
+}
+.content-div1 img{
+
+    margin-left:15% ;
+    height: 100%;
+    width: 100% ;
+   
+}
+.content-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h3,button{
+    padding:1% ;
+    width: 20%;
+   height: 20%;
+}
+p{
+    width:50%;
+    height: 50%;
+}
+.second-section1{
+    display: flex;
+    flex-direction: row;
+    
+     align-content: space-around;
+    
+    
+}
+.second-section {
+    display: flex;
+    flex-direction: column;
+    margin-left:2% ;
+    margin-right: 2%;
+    
+
+}
+
+.last-section1{
+    display: flex;
+    flex-direction: row;
+    
+     align-content: space-around;
+    
+    
+}
+.last-section {
+    display: flex;
+    flex-direction: column;
+    margin-left:2% ;
+    margin-right: 2%;
+    
+
+}
+span{
+    text-align :center;
+}
+a img{
+    width: 2%;
+    height: 2%;
+}
+ footer .divfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center ;
+}
