@@ -75,14 +75,12 @@ blockquote, q {
    .header{
         display: flex;
         flex-flow: row wrap;
-    
     }
     .header-div1{
         display: flex;
         flex-direction: row;
         width:100%;
-        height: 7vh;
-        
+        height: 7vh;   
     }
     .div-img{
         width:50%;
@@ -92,7 +90,6 @@ blockquote, q {
         align-items: center;
         padding: 0%;
     }
-
     .div-img img{
         height: 100%;
         width: 10%;
@@ -100,7 +97,6 @@ blockquote, q {
         padding-top:0%;
         
     }
- 
     .header-div2{
         background-color:rgba(211,211,211,0.8);
         display: flex;
@@ -110,9 +106,6 @@ blockquote, q {
         width:100%;
         height:15vh;
         margin-bottom: 2%;
-        
-        
-
     }
     
     nav{
@@ -131,8 +124,7 @@ blockquote, q {
         background-color: rgb(255,255,255);
         font-size: 2rem;
         color: rgb(0,0,0);
-        border:2px solid;
-        
+        border:2px solid;   
     }
     .nav{
         position:fixed;
@@ -168,8 +160,7 @@ blockquote, q {
     margin-right:6% ;
     margin-left:4% ;
     height: 100%;
-    width: 70% ;
-   
+    width: 70% ;  
 }
 
 .content-div2{
@@ -178,7 +169,6 @@ blockquote, q {
     justify-content: center;
     align-items:flex-start;
     width:50%;
-
 }
 h3,button{
     padding:1% ;
@@ -281,7 +271,6 @@ p{
     justify-content: flex-start;
     align-items:flex-start;
     width:50%;
-
 }
 .divfooter button{
     width:20%;
@@ -340,9 +329,7 @@ nav .home{
     justify-content: space-between;
     align-items:center ;
     margin-bottom: 5%;
-    height: 55vh;
-   
-    
+    height: 55vh;    
     
 }         
     .content-div1{
